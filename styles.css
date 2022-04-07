@@ -1,0 +1,30 @@
+body {
+    margin: auto;
+}
+
+.header {
+    border: solid black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4em;
+    padding-right: 4em;
+    height: 4em;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    border: solid black;
+    height: 3em;
+    width: 20em;
+    padding-left: auto;
+}
+
+.nav-bar li {
+    list-style-type: none;
+}
+
+.image-center {
+    height:100px;
+}
+
