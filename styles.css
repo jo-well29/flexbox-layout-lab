@@ -3,7 +3,6 @@ body {
 }
 
 .header {
-    border: solid black;
     display: flex;
     justify-content: space-between;
     padding-left: 4em;
@@ -14,7 +13,6 @@ body {
 .nav-bar ul {
     display: flex;
     justify-content: space-between;
-    border: solid black;
     height: 3em;
     width: 20em;
     padding-left: auto;
@@ -25,6 +23,15 @@ body {
 }
 
 .image-center {
-    height:100px;
+    height:20em;
+    background: #C0C0C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-text {
+    display: flex;
+    padding: 2em;
 }
 
