@@ -32,6 +32,22 @@ body {
 
 .body-text {
     display: flex;
-    padding: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    justify-content: space-around;
 }
 
+.team-info {
+    padding: 2em;
+    width: 20em;
+}
+
+.mission-info {
+    padding: 2em;
+    width: 60em;
+}
+
+p {
+    word-spacing: .2em;
+    line-height: 3em;
+}
